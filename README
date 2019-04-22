@@ -1,0 +1,7 @@
+# Catch-all android tools 
+
+- payload_runner: Splits OTA payload.bin into sectors
+- flasher: sequential file flasher with fastboot
+- android_api: GoLang Android ADB API
+- gradle_parser: build.gradle Read/Write key-value based parser
+

@@ -1,0 +1,3 @@
+go get github.com/golang/protobuf/protoc-gen-go
+wget https://android.googlesource.com/platform/system/update_engine/+/refs/heads/pie-release/update_metadata.proto?format=TEXT
+protoc --proto_path=src --go_out=out update_metadata.proto
